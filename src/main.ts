@@ -1,8 +1,5 @@
 import './style.css'
-import { setupCounter } from './counter.ts'
+import { arrays } from './components/arrays/arrays'
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  
-`
+arrays()
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
